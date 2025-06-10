@@ -1,0 +1,35 @@
+* {
+    font-family: : "Montserrat", Helvetica;
+    /* Вимикаємо крапочки в списках */
+    list-style-type: none; 
+}
+
+a {
+    /* Вимикаємо підкреслення в посиланнях */
+    text-decoration: none;
+    color: black
+}
+
+.header-navigation-logo {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.1px;
+    line-height: 20px;
+    font-size: 18px;
+    font-family: "Montserrat-Bold", Helvetica;
+}
+
+.header-navigation-logo-italic {
+    font-style: italic;
+  
+  }
+
+  .hero-banner {
+    /* Встановлюємо картинку позаду */
+    background-image: url(/images/hero-banner.jpg);
+    width: 1136px;
+    height: 600px;
+    background-size: contain;
+    border-radius: 20px;
+
+  }
